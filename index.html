@@ -1,23 +1,16 @@
 <!DOCTYPE html>
 <html ng-app="blog">
-<!--Adaug imagine background-->
-
-<body background="back2.png">
 <head>
-		<title>My application</title>
-		<link rel="stylesheet" media="all" href="css/bootstrap.min.css">
-		<link rel="stylesheet" media="all" href="css/custom.css">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-		
-	   </head>
-	 <body>
+  <title>My application</title>
+  <link rel="stylesheet" media="all" href="css/bootstrap.min.css">
+  <link rel="stylesheet" media="all" href="css/custom.css">
+  
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+		</head>
+	<body>
  
 </head>
-
 <body>
 
 </body>
@@ -43,7 +36,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
             <li><a href="#">Resource 1</a></li>
-            
+            <li><a href="#">Resource 2</a></li>
           </ul>
         </div>
       </div>
@@ -54,10 +47,9 @@
 
   <div class="container">
     <div ng-controller="HomeController">
-	
     </div>
   </div>
- 
+
   <hr/>
 
   <!-- /resources1 -->
@@ -74,15 +66,13 @@
 		padding: 10px;
 		background: #3CB371;
 		border-top-right-radius: 2em;
-	   }
-		
-      </style>
+	 }
+     </style>
 	 
      <div class="container-fluid">
      <!-- Carousel container -->
-	 
      <div id="my-pics" class="carousel slide" data-ride="carousel">
-	 
+
      <!-- Indicators -->
 		<ol class="carousel-indicators">
 		<li data-target="#my-pics" data-slide-to="0" class="active"></li>
@@ -90,7 +80,7 @@
 		<li data-target="#my-pics" data-slide-to="2"></li>
 		</ol>
 
-	 <!-- Content -->
+	<!-- Content -->
 		<div class="carousel-inner" role="listbox">
 
 			<!-- Slide 1 -->
@@ -110,54 +100,46 @@
 
 		</div>
 
-	 <!-- Previous/Next controls -->
-	 <a class="left carousel-control" href="#my-pics" role="button" data-slide="prev">
-	 <span class="icon-prev" aria-hidden="true"></span>
-     <span class="sr-only">Previous</span>
-	 </a>
-	 <a class="right carousel-control" href="#my-pics" role="button" data-slide="next">
-	 <span class="icon-next" aria-hidden="true"></span>
-	 <span class="sr-only">Next</span>
-	 </a>
+		<!-- Previous/Next controls -->
+		<a class="left carousel-control" href="#my-pics" role="button" data-slide="prev">
+		<span class="icon-prev" aria-hidden="true"></span>
+		<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#my-pics" role="button" data-slide="next">
+		<span class="icon-next" aria-hidden="true"></span>
+		<span class="sr-only">Next</span>
+		</a>
 
-	 </div>
+		</div>
 
-	 <!-- Center the image -->
-	 <style scoped>
-	     .item img{
+		<!-- Center the image -->
+		<style scoped>
+		  .item img{
 		  margin: 0 auto;	
 	    	}
-	 </style>
+		 </style>
 
-     </div>
-	 </div>
+		 </div>
 		
-     <!-- jQuery library -->
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-     <!-- Bootstrap JS -->
-     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> 
-     
-	 <!-- Scrollable table-->
-	 
-	 
-     <tr>
-       
-     <th scope="col" colspan="1">Id_student</th>
-     <th scope="col">Nume_student</th>
-     <th scope="col"> Facultate</th>
-     <th  scope="col">Grupa</th>
+		 <!-- jQuery library -->
+		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		 <!-- Bootstrap JS -->
+			<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> 
+  
+  
+      <tr>
+        <th scope="col" colspan="1">Id_student</th>
+        <th scope="col">Nume_student</th>
+        <th scope="col"> Facultate</th>
+        <th  scope="col">Grupa</th>
 		
-     </tr>
-	  
-	  <tbody>
-	 
-	 
-      <tr class ="info">
-	  
-        <td class ="filterable-cell">1</td>
-        <td class="filterable-cell">Ion</td>
-        <td class="filterable-cell">Automatica</td>
-		<td class="filterable-cell">331</td>
+	
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Ion</td>
+        <td>Automatica</td>
+		<td>331</td>
         
         <td>
           <a href="">
@@ -180,11 +162,11 @@
           </a>
         </td>
       </tr>
-      <tr class="danger">
-         <td class="filterable-cell">2</td>
-         <td class="filterable-cell">Adriana</td>
-         <td class="filterable-cell">Matematica</td>
-		 <td class="filterable-cell">312        </td>
+      <tr>
+         <td>2</td>
+         <td>Adriana</td>
+         <td>Matematica</td>
+		 <td>312      </td>
          
 		 <td>
           <a href="">
@@ -207,11 +189,11 @@
           </a>
         </td>
       </tr>
-      <tr class ="warning">
-         <td class="filterable-cell">3</td>
-         <td class ="filterable-cell">Alexandra</td>
-         <td class="filterable-cell">Medicina</td>
-		 <td clas="filterable-cell">331</td>
+      <tr>
+         <td>3</td>
+         <td>Alexandra</td>
+         <td>Medicina</td>
+		 <td>331</td>
          <td>
           <a href="">
             <span class="label label-success">
@@ -233,14 +215,13 @@
           </a>
         </td>
       </tr>
-     </tbody>
-	 
+     
+
     </table>
-	
 
     <div class="row">
       <div class="col-md-3">
-        <h2><font color="red">Editeaza studentul</font></h2>
+        <h2>Editeaza studentul</h2>
         <form action="" method="">
           <div class="form-group">
             <label for="attribute1">Id_Student</label>
@@ -264,7 +245,7 @@
 
 
       <div class="col-md-3 col-md-offset-6">
-        <h2><font color="orange">Adauga student</font> </h2>
+        <h2>Adauga student </h2>
         <form action="" method="">
           <div class="form-group">
             <label for="attribute1">Id_Student</label>
@@ -299,12 +280,12 @@
       <div class="col-md-10">
          <p>Coleen, Matematica,312</p>
 			<div class="btn-group">
-			 <a href="http://www.usnews.com/education/best-high-schools/articles/2014/09/30/how-i-got-to-college-colleen-mellinger?int=a47709" class="btn btn-primary btn-lg ">Pentru informatii suplimentare,apasati butonul de mai jos</a>
-			 
+			 <a href="#" class="btn btn-primary btn-lg disabled">Link-info</a>
+			<a href ="http://www.usnews.com/education/best-high-schools/articles/2014/09/30/how-i-got-to-college-colleen-mellinger?int=a47709">Pentru mai multe informatii,accesati acest link</a>
 			</div>
 			</div>
 
-         </div>
+         
         <table class="table table-bordered table-striped">
      
           </tr>
@@ -313,13 +294,12 @@
     </div>
   </div>
 
-
   <hr/>
  
   <div class="container">
     <footer class="footer">
       <p class="text-muted pull-left">AWJ Base Project &copy; 2015-2016</p>
-      <p class="text-muted pull-right">Voicu Paulina-Elena, 331AA</p>
+      <p class="text-muted pull-right">Sirbu Nicolae-Cezar, 331AA</p>
     </footer>
   </div>
 
